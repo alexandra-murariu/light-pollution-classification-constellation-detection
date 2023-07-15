@@ -1,0 +1,105 @@
+# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
+# COCO128 dataset https://www.kaggle.com/ultralytics/coco128 (first 128 images from COCO train2017) by Ultralytics
+# Example usage: python train.py --data coco128.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── coco128  ← downloads here (7 MB)
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../drive/MyDrive/final_one  # dataset root dir
+train: images/train  # train images (relative to 'path') 128 images
+val: images/val  # val images (relative to 'path') 128 images
+test:  images/test
+
+# Classes
+names:
+  0: ORI
+  1: GEM
+  2: CNC
+  3: CMI
+  4: CMA
+  5: MON
+  6: LEP
+  7: SEX
+  8: PYX
+  9: TRI
+  10: ARI
+  11: LEO
+  12: LMI
+  13: LYN
+  14: VIR
+  15: VEL
+  16: CEN
+  17: CRT
+  18: ANT
+  19: HYA
+  20: PUP
+  21: COL
+  22: CAR
+  23: CAS
+  24: PIC
+  25: DOR
+  26: AND
+  27: TAU
+  28: AUR
+  29: HOR
+  30: CAE
+  31: SCL
+  32: CET
+  33: FOR
+  34: PHE
+  35: CAM
+  36: ERI
+  37: PEG
+  38: PER
+  39: PSC
+  40: UMA
+  41: UMI
+  42: CEP
+  43: CHA
+  44: CIR
+  45: COM
+  46: CRA
+  47: CRB
+  48: CRU
+  49: CRV
+  50: CVN
+  51: CYG
+  52: DEL
+  53: DRA
+  54: EQU
+  55: GRU
+  56: HER
+  57: HYI
+  58: IND
+  59: LAC
+  60: LIB
+  61: LUP
+  62: LYR
+  63: MEN
+  64: MIC
+  65: MUS
+  66: NOR
+  67: OCT
+  68: OPH
+  69: PAV
+  70: PSA
+  71: RET
+  72: SCO
+  73: SCT
+  74: SER
+  75: SGE
+  76: SGR
+  77: APS
+  78: AQL
+  79: AQR
+  80: ARA
+  81: VOL
+  82: VUL
+  83: BOO
+  84: CAP
+  85: TUC
+  86: TRA
+  87: TEL
